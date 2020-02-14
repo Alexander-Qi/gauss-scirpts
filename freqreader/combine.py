@@ -28,10 +28,10 @@ elif sys.argv[1] == "long":
 
 
 freqdata = pandas.DataFrame(pandas.read_excel(
-    "E:\\xinghuo\\opt\\" + 'Results-' + today + '.xls', sheet_name='sheet 1'))
+    "E:\\opt\\" + 'Results-' + today + '.xls', sheet_name='sheet 1'))
 
 zpandasata = pandas.DataFrame(pandas.read_excel(
-    "E:\\xinghuo\\zeropoint\\"+'Results-zp-' + today + '.xls', sheet_name='sheet 1'))
+    "E:\\zeropoint\\"+'Results-zp-' + today + '.xls', sheet_name='sheet 1'))
 
 # freqdata = xlrd.open_workbook("/opt/"+'Results-' + today + '.xls').sheets()[0]
 
